@@ -1,11 +1,8 @@
-import { Button } from '@material-ui/core'
-
 const Home = () => {
   return (
     <div>
-      <Button variant="contained" color="primary">
-        Primary
-      </Button>
+      <div>TMDB URL: {process.env.TMDB_URL}</div>
+      <div>TMDB KEY: {process.env.TMDB_KEY}</div>
     </div>
   )
 }

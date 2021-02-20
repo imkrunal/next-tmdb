@@ -19,3 +19,11 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - Eslint
 - Prettier
 - Editorconfig
+
+## TMDB
+
+Get Upcoming Movies Endpoint
+
+```
+https://api.themoviedb.org/3/movie/upcoming?api_key=<<api_key>></api_key>&language=en-US&page=1
+```
